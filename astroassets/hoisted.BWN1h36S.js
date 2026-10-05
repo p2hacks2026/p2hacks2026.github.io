@@ -1,0 +1,1 @@
+function n(){document.querySelectorAll(".sp-menu-button").forEach(e=>{e.addEventListener("click",()=>{const t=document.querySelector(".sp-menu")?.classList.toggle("active");e.setAttribute("aria-expanded",String(t))})})}n();

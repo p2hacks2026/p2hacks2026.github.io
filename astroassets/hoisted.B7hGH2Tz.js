@@ -1,0 +1,1 @@
+import"./hoisted.BWN1h36S.js";function s(){const i=t=>{for(let r=0;r<t.length;r++){const e=t[r];e&&(e.intersectionRatio<.1&&e.target.classList.remove("is-visible"),e.intersectionRatio>.9&&e.target.classList.add("is-visible"))}},o=new IntersectionObserver(i,{threshold:[0,1],rootMargin:"10000px 0px 0px 0px"});document.querySelectorAll("[data-fader]").forEach(t=>{o.observe(t)})}s();
